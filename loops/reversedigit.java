@@ -4,7 +4,7 @@ public class reversedigit {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();    //take input
         
-        while( num > 0) {      //when reminder is 0, means digit all no. finished.
+        while( num > 0) {      //when reminder is 0, means that digit's all no. finished.
             int lastdigit = num%10;    //taking lastdigit from the digit.
             System.out.print(lastdigit + "");  //printing lastdigit at first palce.
             num = num/10;  //num/=10       //removing the last digit.
