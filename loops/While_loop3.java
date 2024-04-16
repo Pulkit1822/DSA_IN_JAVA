@@ -11,3 +11,4 @@ public class While_loop3{
         }
     }
 }
+//while loop 
